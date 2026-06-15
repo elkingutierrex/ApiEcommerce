@@ -1,0 +1,11 @@
+@ApiEcommerce_HostAddress = http://localhost:5094
+
+GET {{ApiEcommerce_HostAddress}}/openapi/v1.json
+Accept: application/json
+
+###
+
+GET {{ApiEcommerce_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
